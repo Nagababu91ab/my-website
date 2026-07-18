@@ -3,154 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nagababu Platform</title>
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Verdana, sans-serif;
-}
-
-body{
-    background:#0f172a;
-    color:white;
-}
-
-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 60px;
-    background:#1e293b;
-}
-
-.logo{
-    font-size:28px;
-    font-weight:bold;
-    color:#38bdf8;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:20px;
-    transition:.3s;
-}
-
-nav a:hover{
-    color:#38bdf8;
-}
-
-.hero{
-    text-align:center;
-    padding:100px 20px;
-}
-
-.hero h1{
-    font-size:55px;
-    color:#38bdf8;
-}
-
-.hero p{
-    margin:20px auto;
-    max-width:700px;
-    font-size:18px;
-    color:#cbd5e1;
-}
-
-.btn{
-    display:inline-block;
-    margin-top:20px;
-    padding:14px 35px;
-    background:#38bdf8;
-    color:white;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:bold;
-}
-
-.features{
-    display:flex;
-    justify-content:center;
-    gap:25px;
-    flex-wrap:wrap;
-    padding:60px 20px;
-}
-
-.box{
-    width:280px;
-    background:#1e293b;
-    padding:25px;
-    border-radius:15px;
-    text-align:center;
-    transition:.3s;
-}
-
-.box:hover{
-    transform:translateY(-10px);
-}
-
-.box h2{
-    color:#38bdf8;
-    margin-bottom:15px;
-}
-
-footer{
-    text-align:center;
-    padding:20px;
-    background:#1e293b;
-    margin-top:40px;
-}
-</style>
-
+<title>Responsive Website</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-<div class="logo">Nagababu Platform</div>
-
-<nav>
-<a href="#">Home</a>
-<a href="#">About</a>
-<a href="#">Services</a>
-<a href="#">Projects</a>
-<a href="#">Contact</a>
-</nav>
+    <h2>Nagababu Website</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
 </header>
 
 <section class="hero">
-<h1>Welcome to Nagababu Platform</h1>
-<p>
-Learn HTML, CSS, JavaScript, Python, Node.js, and MongoDB with simple projects.
-Build your future in Full Stack Development.
-</p>
-
-<a href="#" class="btn">Get Started</a>
+    <h1>Welcome to My Responsive Website</h1>
+    <p>This website works on Mobile, Tablet, Laptop and Desktop.</p>
 </section>
 
-<section class="features">
+<section class="cards">
+    <div class="card">
+        <h3>HTML</h3>
+        <p>Build web pages.</p>
+    </div>
 
-<div class="box">
-<h2>💻 Web Development</h2>
-<p>Create beautiful and responsive websites.</p>
-</div>
+    <div class="card">
+        <h3>CSS</h3>
+        <p>Create beautiful designs.</p>
+    </div>
 
-<div class="box">
-<h2>🐍 Python</h2>
-<p>Learn Python programming with simple examples.</p>
-</div>
-
-<div class="box">
-<h2>🚀 Projects</h2>
-<p>Build real-world projects to improve your skills.</p>
-</div>
-
+    <div class="card">
+        <h3>JavaScript</h3>
+        <p>Add interactivity.</p>
+    </div>
 </section>
 
 <footer>
-© 2026 Nagababu Platform | Designed by Nagababu
+    © 2026 Nagababu Website
 </footer>
 
 </body>
